@@ -1,0 +1,300 @@
+---
+title: Code
+---
+
+The following list provides links to the code used in the guided coding sessions. The code may be be updated as the course progresses. The solutions to the challenges will be available on the course's shared Dropbox folder (link to be sent via email).
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-1" class="panel-title">
+<a data-toggle="collapse" href="#collapse1">Week 1: 08/24. Version control and GitHub.</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+
+- Slides: [Introduction to GitHub (.pdf file)](slides/02-github.pdf) 
+
+- Code: [Introduction to RMarkdown](code/01-RMarkdown-setup.html) ([.Rmd file](code/01-RMarkdown-setup.rmd))
+
+- [GitHub Classroom: Challenge 0](https://classroom.github.com/a/X_BFsLDP)
+
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-2" class="panel-title">
+<a data-toggle="collapse" href="#collapse2">Week 2: 08/31. Advanced R.</a>
+</h2>
+</div>
+<div id="collapse2" class="panel-collapse collapse in" style="margin:12px">
+
+- Slides: [Good coding / programming practices (.pdf file)](slides/04-good-coding.pdf)
+
+- Code: [Functions and loops in R](code/02-loops-functions.html) ([.Rmd file](code/02-loops-functions.html))
+
+- Code: [Brief overview of algorithm complexity](code/03-algorithm-complexity.html) ([.Rmd file](code/03-algorithm-complexity.html))
+
+- Code: [Efficient programming with R](code/04-efficient-programming.html) ([.Rmd file](code/04-efficient-programming.Rmd))
+
+- [GitHub Classroom: Challenge 1](https://classroom.github.com/a/kmGctmrA)
+
+
+</div>
+</div>
+</div>
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-3" class="panel-title">
+<a data-toggle="collapse" href="#collapse3">Week 3: 09/07. Webscraping.</a>
+</h2>
+</div>
+<div id="collapse3" class="panel-collapse collapse in" style="margin:12px">
+
+- Slides: [Webscraping (.pdf file)](slides/06-scraping.pdf)
+
+- Code: [Scraping tables from websites](code/05-scraping-tables.html) ([.Rmd file](code/05-scraping-tables.Rmd))
+
+- Code: [Scraping unstructured data](code/06-scraping-unstructured-data.html) ([.Rmd file](code/06-scraping-unstructured-data.html))
+
+- [GitHub Classroom: Challenge 2](https://classroom.github.com/a/TsmKeS49)
+
+
+</div>
+</div>
+</div>
+
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-4" class="panel-title">
+<a data-toggle="collapse" href="#collapse4">Week 4: 09/14. Text (I).</a>
+</h2>
+</div>
+<div id="collapse4" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Introduction to text analysis with R](code/07-intro-text-analysis.html) ([.Rmd file](code/07-intro-text-analysis.Rmd))
+
+- Code: [Text analysis with the quanteda package](code/08-quanteda-intro.html) ([.Rmd file](code/08-quanteda-intro.Rmd))
+
+- Slides: [APIs (.pdf file)](slides/08-APIs.pdf)
+
+- Code: [APIs](code/09-apis.html) ([.Rmd file](code/09-apis.Rmd))
+
+- [GitHub Classroom: Challenge 3](https://classroom.github.com/a/H0WaWaPR)
+
+</div>
+</div>
+</div>
+
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-5" class="panel-title">
+<a data-toggle="collapse" href="#collapse5">Week 5: 09/21. Text (II).</a>
+</h2>
+</div>
+<div id="collapse5" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Describing and comparing documents](code/10-descriptive-statistics.html) ([.Rmd file](code/10-descriptive-statistics.Rmd))
+
+- [GitHub Classroom: Challenge 4](https://classroom.github.com/a/0T4ma7fw)
+
+
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-6" class="panel-title">
+<a data-toggle="collapse" href="#collapse6">Week 6: 09/28. Text (III).</a>
+</h2>
+</div>
+<div id="collapse6" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Dictionary methods applied to sentiment analysis](code/11-dictionaries.html) ([.Rmd file](code/11-dictionaries.Rmd))
+
+- Code: [Dictionary methods - advanced applications](code/12-dictionaries-advanced.html) ([.Rmd file](code/12-dictionaries-advanced.Rmd))
+
+- [GitHub Classroom: Challenge 5](https://classroom.github.com/a/rfEaB7rb)
+
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-7" class="panel-title">
+<a data-toggle="collapse" href="#collapse7">Week 7: 10/05. Text (IV).</a>
+</h2>
+</div>
+<div id="collapse1" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Supervised learning applied to text classification](code/13-supervised-learning.html) ([.Rmd file](code/13-supervised-learning.Rmd))
+
+- [GitHub Classroom: Challenge 6](https://classroom.github.com/a/T1VgEAsy)
+
+</div>
+</div>
+</div>
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-8" class="panel-title">
+<a data-toggle="collapse" href="#collapse8">Week 8: 10/12. Text (V).</a>
+</h2>
+</div>
+<div id="collapse8" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Topic models](code/14-topic-models.html) ([.Rmd file](code/14-topic-models.Rmd))
+
+- [GitHub Classroom: Challenge 7](https://classroom.github.com/a/1bkUgUzy)
+
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-9" class="panel-title">
+<a data-toggle="collapse" href="#collapse9">Week 9: 10/19. Text (VI).</a>
+</h2>
+</div>
+<div id="collapse9" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Introduction to word2vec](code/15-word-embeddings.html) ([.Rmd file](code/15-word-embeddings.Rmd))
+
+- Code: [Applications of word embeddings](code/16-word-embeddings-application.html) ([.Rmd file](code/16-word-embeddings-application.Rmd))
+
+- [GitHub Classroom: Challenge 8](https://classroom.github.com/a/zXjy9A9R)
+
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-10" class="panel-title">
+<a data-toggle="collapse" href="#collapse10">Week 10: 10/26. Networks (I).</a>
+</h2>
+</div>
+<div id="collapse10" class="panel-collapse collapse in" style="margin:12px">
+
+
+- Code: [Introduction to social network analysis with igraph](code/17-networks-intro.html) ([.Rmd file](code/17-networks-intro.Rmd))
+
+- Code: [Community detection](code/18-community-detection.html) ([.Rmd file](code/18-community-detection.Rmd))
+
+- [GitHub Classroom: Challenge 9](https://classroom.github.com/a/M0-bCL-X)
+
+</div>
+</div>
+</div>
+
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-11" class="panel-title">
+<a data-toggle="collapse" href="#collapse11">Week 11: 11/02. Networks (II).</a>
+</h2>
+</div>
+<div id="collapse11" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Collecting Twitter data from the Streaming API](code/19-twitter-streaming-data-collection.html) ([.Rmd file](code/19-twitter-streaming-data-collection.Rmd))
+
+- Code: [Collecting Twitter data from the REST API](code/20-twitter-REST-data-collection.html) ([.Rmd file](code/20-twitter-REST-data-collection.Rmd))
+
+- Demo: Collecting Facebook and Instagram data from CrowdTangle
+
+- Tutorial: Network visualization with Gephi
+
+- [GitHub Classroom: Challenge 10](https://classroom.github.com/a/v-zRBb05)
+
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-12" class="panel-title">
+<a data-toggle="collapse" href="#collapse12">Week 12: 11/09. Networks (III).</a>
+</h2>
+</div>
+<div id="collapse12" class="panel-collapse collapse in" style="margin:12px">
+
+- Code: [Principal component analysis](code/21-PCA.html) ([.Rmd file](code/21-PCA.Rmd))
+
+- Code: [Latent space network models](code/22-latent-space.html) ([.Rmd file](code/22-latent-space.Rmd))
+
+</div>
+</div>
+</div>
+
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-12" class="panel-title">
+<a data-toggle="collapse" href="#collapse12">Week 13: 11/16. Big Data (I).</a>
+</h2>
+</div>
+<div id="collapse12" class="panel-collapse collapse in" style="margin:12px">
+
+
+- Slides: [Introduction to SQL](slides/17-SQL.pdf)
+
+- Code: [Basics of SQL queries](code/S01-sql-intro.html)
+
+- Code: [Querying multiple tables. Grouping and aggregating operations.](code/S02-sql-joins.html)
+
+- Code: [Querying large-scale databases.](code/S03-large-queries.html)
+
+- GitHub Classroom: [Additional materials and challenges](https://classroom.github.com/a/R6oxPiJC)
+
+</div>
+</div>
+</div>
+
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h2 id="week-12" class="panel-title">
+<a data-toggle="collapse" href="#collapse12">Week 15: 11/30. Big Data (II).</a>
+</h2>
+</div>
+<div id="collapse12" class="panel-collapse collapse in" style="margin:12px">
+
+
+- Slides: [Parallel computing](slides/18-parallel.pdf)
+
+- Code: [Parallel computing with R](code/23-parallel-computing.html) ([.Rmd file](code/23-parallel-computing.Rmd))
+
+- Code: [Parsing text in PDF files](code/24-data-in-PDFs.html) ([.Rmd file](code/24-data-in-PDFs.Rmd))
+
+</div>
+</div>
+</div>

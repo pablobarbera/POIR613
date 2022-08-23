@@ -56,9 +56,11 @@ Note: slides may be updated as the course progresses.
 
 #### Readings for discussion
 
-- Kramer, A. D., Guillory, J. E., & Hancock, J. T. (2014). [Experimental evidence of massive-scale emotional contagion through social networks.](http://www.pnas.org/content/111/24/8788.short) *Proceedings of the National Academy of Sciences*, 111(24), 8788-8790.
-
 - Hargittai, E. (2018). [Potential Biases in Big Data: Omitted Voices on Social Media.](https://journals.sagepub.com/doi/abs/10.1177/0894439318788322) *Social Science Computer Review*, forthcoming.
+
+- Vlasceanu, M., & Amodio, D. M. (2022). [Propagation of Societal Gender Inequality by Internet Search Algorithms.](https://www.pnas.org/doi/10.1073/pnas.2204529119) *Proceedings of the National Academy of Sciences*, 119 (29) e2204529119.
+
+- Kramer, A. D., Guillory, J. E., & Hancock, J. T. (2014). [Experimental evidence of massive-scale emotional contagion through social networks.](http://www.pnas.org/content/111/24/8788.short) *Proceedings of the National Academy of Sciences*, 111(24), 8788-8790.
 
 </div></div></div>
 
@@ -108,7 +110,7 @@ Note: slides may be updated as the course progresses.
 
 #### Background reading
 
-- Grimmer, J., & Stewart, B. M. (2013). [Text as data: The promise and pitfalls of automatic content analysis methods for political texts.](https://www.cambridge.org/core/journals/political-analysis/article/div-classtitletext-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-textsdiv/F7AAC8B2909441603FEB25C156448F20) *Political analysis*, 21(3), 267-297.
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. **Chapter 2.**
 
 - Benoit, K. (2020). [Text as data: an overview.](https://kenbenoit.net/pdfs/28%20Benoit%20Text%20as%20Data%20draft%202.pdf) In Curini, L., and Franzese, R. (eds) *The SAGE Handbook of Research Methods in Political Science and International Relations*, London: Sage.
 
@@ -133,6 +135,8 @@ Note: slides may be updated as the course progresses.
 
 #### Background reading
 
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. **Chapter 5, 7, and 11.**
+
 - Denny, M. J., & Spirling, A. (2018). [Text preprocessing for unsupervised learning: why it matters, when it misleads, and what to do about it.](https://www.cambridge.org/core/journals/political-analysis/article/text-preprocessing-for-unsupervised-learning-why-it-matters-when-it-misleads-and-what-to-do-about-it/AA7D4DE0AA6AB208502515AE3EC6989E) *Political Analysis*, 26(2): 168-189.
 
 #### Readings for discussion
@@ -140,9 +144,6 @@ Note: slides may be updated as the course progresses.
 - Carter, E. B., & Carter, B. L. (2021). [Questioning More: RT, Outward-Facing Propaganda, and the Post-West World Order.](http://www.erinbcarter.org/documents/RT.pdf) *Security Studies*, 30(1), 49-78.
 
 - Liu, A. H. (2021). [Pronoun Usage as a Measure of Power Personalization: A General Theory with Evidence from the Chinese-Speaking World.](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B8A422F904339BCB902CA318AAE810A3/S0007123421000181a.pdf/div-class-title-pronoun-usage-as-a-measure-of-power-personalization-a-general-theory-with-evidence-from-the-chinese-speaking-world-div.pdf) *British Journal of Political Science*, 1-18.
-
-- Hengel, E. (2020). [Publishing while female.](https://warwick.ac.uk/fac/soc/economics/about/athena-swan/resources/women.pdf.pdf#page=81) Chapter 10. Women in Economics, 80.
-
 
 
 
@@ -163,13 +164,15 @@ Note: slides may be updated as the course progresses.
 
 #### Background reading
 
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. **Chapters 15 and 16.**
+
 - González-Bailón, S., & Paltoglou, G. (2015). [Signals of public opinion in online communication: A comparison of methods and data sources.](https://journals.sagepub.com/doi/pdf/10.1177/0002716215569192?casa_token=a0RzWG5Ax84AAAAA:1Bz3VYxGncl41uzHDY8GAiQiXUJN10ExZGtpDuu2n-qxPwI20hn-l-omjrI5SkwB8X8ToB-6K1M_) *The ANNALS of the American Academy of Political and Social Science*, 659(1), 95-107.
 
 - Barberá, P., Boydstun, A. E., Linn, S., McMahon, R., & Nagler, J. (2021). [Automated text classification of news articles: A practical guide.](https://www.cambridge.org/core/journals/political-analysis/article/abs/automated-text-classification-of-news-articles-a-practical-guide/10462DB284B1CD80C0FAE796AD786BC6) *Political Analysis*, 29(1), 19-42.
 
 #### Readings for discussion
 
-- Young, L., & Soroka, S. (2012). [Affective news: The automated coding of sentiment in political texts.](http://www.tandfonline.com/doi/abs/10.1080/10584609.2012.671234) *Political Communication*, 29(2), 205-231.
+- Engler, S., Gessler, T., Abou-Chadi, T., & Leemann, L. (2022). [Democracy challenged: how parties politicize different democratic principles.](https://www.tandfonline.com/doi/pdf/10.1080/13501763.2022.2099956?needAccess=true) *Journal of European Public Policy*, 1-23.
 
 - Rathje, S., Van Bavel, J. J., & van der Linden, S. (2021). [Out-group animosity drives engagement on social media.](https://www.pnas.org/content/pnas/118/26/e2024292118.full.pdf) *Proceedings of the National Academy of Sciences*, 118(26).
 
@@ -192,9 +195,7 @@ Note: slides may be updated as the course progresses.
 
 #### Background reading
 
-- Chapters 2, 5, and 6 of James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). [An introduction to statistical learning.](https://web.stanford.edu/~hastie/ISLRv2_website.pdf) New York: Springer.
-
-- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2021). [Machine Learning for Social Science: An Agnostic Approach.](https://www.annualreviews.org/doi/pdf/10.1146/annurev-polisci-053119-015921) *Annual Review of Political Science*, 24, 395-419.
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. **Chapters 17, 18, 19, and 20.**
 
 - Benoit, K., Conway, D., Lauderdale, B. E., Laver, M., & Mikhaylov, S. (2016). [Crowd-sourced text analysis: reproducible and agile production of political data.](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/crowd-sourced-text-analysis-reproducible-and-agile-production-of-political-data/EC674A9384A19CFA357BC2B525461AC3) *American Political Science Review*, 110(2), 278-295.
 
@@ -206,7 +207,8 @@ Note: slides may be updated as the course progresses.
 
 - Kim, J. Y. (2021). [Integrating human and machine coding to measure political issues in ethnic newspaper articles.](https://link.springer.com/article/10.1007/s42001-020-00097-2) *Journal of Computational Social Science*, 1-28.
 
-- Peterson, A., & Spirling, A. (2018). [Classification accuracy as a substantive quantity of interest: Measuring polarization in westminster systems.](https://www.cambridge.org/core/journals/political-analysis/article/classification-accuracy-as-a-substantive-quantity-of-interest-measuring-polarization-in-westminster-systems/45746D999CFCD1CB43E362392D7B2FB4) *Political Analysis*, 26(1), 120-128.
+- Eberhardt, M., Facchini, G., & Rueda, V. (2022). [Gender Differences in Reference Letters: Evidence from the Economics Job Market.](https://www.econstor.eu/bitstream/10419/252179/1/dp15055.pdf) *Working paper*.
+
 
 </div></div></div>
 
@@ -225,9 +227,9 @@ Note: slides may be updated as the course progresses.
 
 #### Background reading
 
-- Blei, D. M. (2012). [Probabilistic topic models.](http://dl.acm.org/citation.cfm?id=2133826) *Communications of the ACM*, 55(4), 77-84.
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. **Chapters 12 and 13.**
 
-- Roberts, M. E., Stewart, B. M., Tingley, D., Lucas, C., Leder‐Luis, J., Gadarian, S. K., … & Rand, D. G. (2014). [Structural Topic Models for Open‐Ended Survey Responses.](http://authors.library.caltech.edu/52278/7/topicmodelsopenendedexperiments.pdf) *American Journal of Political Science*, 58(4), 1064-1082.
+- Blei, D. M. (2012). [Probabilistic topic models.](http://dl.acm.org/citation.cfm?id=2133826) *Communications of the ACM*, 55(4), 77-84.
 
 - Quinn, K. M., Monroe, B. L., Colaresi, M., Crespin, M. H., & Radev, D. R. (2010). [How to analyze political attention with minimal assumptions and costs.](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-5907.2009.00427.x) *American Journal of Political Science*, 54(1), 209-228.
 
@@ -259,6 +261,8 @@ Note: slides may be updated as the course progresses.
 
 #### Background reading
 
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). Text as data: A new framework for machine learning and the social sciences. Princeton University Press. **Chapter 8.**
+
 - Rodriguez, P., & Spirling, A. (2021). [Word Embeddings: What works, what doesn't, and how to tell the difference for applied research.](http://arthurspirling.org/documents/embed.pdf) *Journal of Politics*, forthcoming. See also [FAQ](https://github.com/ArthurSpirling/EmbeddingsPaper/blob/master/Project_FAQ/faq.md).
 
 #### Readings for discussion
@@ -267,7 +271,7 @@ Note: slides may be updated as the course progresses.
 
 - Osnabrügge, M., Hobolt, S. B., & Rodon, T. (2021). [Playing to the Gallery: Emotive Rhetoric in Parliaments.](https://www.cambridge.org/core/journals/american-political-science-review/article/playing-to-the-gallery-emotive-rhetoric-in-parliaments/2A47C797136261391DA27F3A16F64886) *American Political Science Review*, 1-15.
 
-- Béchara, H., Herzog, A., Jankin, S., & John, P. (2021). [Transfer learning for topic labeling: Analysis of the UK House of Commons speeches 1935–2014.](https://journals.sagepub.com/doi/pdf/10.1177/20531680211022206) *Research & Politics*, 8(2), 20531680211022206.
+- Card, D., Chang, S., Becker, C., Mendelsohn, J., Voigt, R., Boustan, L., ... & Jurafsky, D. (2022). [Computational analysis of 140 years of US political speeches reveals more positive but increasingly polarized framing of immigration.](https://www.pnas.org/doi/abs/10.1073/pnas.2120510119) *Proceedings of the National Academy of Sciences*, 119(31), e2120510119.
 
 - Yang, E., & Roberts, M. E. (2021). [Censorship of Online Encyclopedias: Implications for NLP Models.](https://dl.acm.org/doi/pdf/10.1145/3442188.3445916) In *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency* (pp. 537-548).
 
@@ -294,9 +298,9 @@ Note: slides may be updated as the course progresses.
 
 #### Readings for discussion
 
-- Bisbee, J., & Larson, J. M. (2017). [Testing social science network theories with online network data: An evaluation of external validity.](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/testing-social-science-network-theories-with-online-network-data-an-evaluation-of-external-validity/4BF517F10F38DFB574FED4A3D805B613) *American political science review*, 111(3), 502-521.
-
 - Steinert-Threlkeld, Z. C. (2017). [Spontaneous collective action: Peripheral mobilization during the Arab Spring.](https://www.cambridge.org/core/journals/american-political-science-review/article/spontaneous-collective-action-peripheral-mobilization-during-the-arab-spring/2E9A10C26CA53918CCAD479E6F7E4646) *American Political Science Review*, 111(2), 379-403.
+
+- Chetty, R., Jackson, M. O., Kuchler, T., Stroebel, J., et al. (2022). [Social capital I: measurement and associations with economic mobility.](https://www.nature.com/articles/s41586-022-04996-4) *Nature*, 1-14.
 
 </div></div></div>
 

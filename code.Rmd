@@ -17,6 +17,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Introduction to RMarkdown](code/01-RMarkdown-setup.html) ([.Rmd file](code/01-RMarkdown-setup.rmd))
 
+- Additional reading: [How Pew Research Center uses git and GitHub for version control](https://medium.com/pew-research-center-decoded/how-pew-research-center-uses-git-and-github-for-version-control-f71dbaaec286)
+
 - [GitHub Classroom: Challenge 0](https://classroom.github.com/a/X_BFsLDP)
 
 </div>
@@ -41,7 +43,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Efficient programming with R](code/04-efficient-programming.html) ([.Rmd file](code/04-efficient-programming.Rmd))
 
-- [GitHub Classroom: Challenge 1](https://classroom.github.com/a/kmGctmrA)
+<!-- - [GitHub Classroom: Challenge 1](https://classroom.github.com/a/kmGctmrA) -->
+- GitHub Classroom: Challenge 1
 
 
 </div>
@@ -63,7 +66,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Scraping unstructured data](code/06-scraping-unstructured-data.html) ([.Rmd file](code/06-scraping-unstructured-data.html))
 
-- [GitHub Classroom: Challenge 2](https://classroom.github.com/a/TsmKeS49)
+<!-- - [GitHub Classroom: Challenge 2](https://classroom.github.com/a/TsmKeS49) -->
+GitHub Classroom: Challenge 2
 
 
 </div>
@@ -89,7 +93,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [APIs](code/09-apis.html) ([.Rmd file](code/09-apis.Rmd))
 
-- [GitHub Classroom: Challenge 3](https://classroom.github.com/a/H0WaWaPR)
+<!-- - [GitHub Classroom: Challenge 3](https://classroom.github.com/a/H0WaWaPR) -->
+GitHub Classroom: Challenge 3
 
 </div>
 </div>
@@ -108,7 +113,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Describing and comparing documents](code/10-descriptive-statistics.html) ([.Rmd file](code/10-descriptive-statistics.Rmd))
 
-- [GitHub Classroom: Challenge 4](https://classroom.github.com/a/0T4ma7fw)
+<!-- - [GitHub Classroom: Challenge 4](https://classroom.github.com/a/0T4ma7fw) -->
+GitHub Classroom: Challenge 4
 
 
 </div>
@@ -129,7 +135,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Dictionary methods - advanced applications](code/12-dictionaries-advanced.html) ([.Rmd file](code/12-dictionaries-advanced.Rmd))
 
-- [GitHub Classroom: Challenge 5](https://classroom.github.com/a/rfEaB7rb)
+<!-- - [GitHub Classroom: Challenge 5](https://classroom.github.com/a/rfEaB7rb) -->
+GitHub Classroom: Challenge 5
 
 </div>
 </div>
@@ -147,7 +154,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Supervised learning applied to text classification](code/13-supervised-learning.html) ([.Rmd file](code/13-supervised-learning.Rmd))
 
-- [GitHub Classroom: Challenge 6](https://classroom.github.com/a/T1VgEAsy)
+<!-- - [GitHub Classroom: Challenge 6](https://classroom.github.com/a/T1VgEAsy) -->
+GitHub Classroom: Challenge 6
 
 </div>
 </div>
@@ -164,7 +172,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Topic models](code/14-topic-models.html) ([.Rmd file](code/14-topic-models.Rmd))
 
-- [GitHub Classroom: Challenge 7](https://classroom.github.com/a/1bkUgUzy)
+<!-- - [GitHub Classroom: Challenge 7](https://classroom.github.com/a/1bkUgUzy) -->
+GitHub Classroom: Challenge 7
 
 </div>
 </div>
@@ -184,7 +193,9 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Applications of word embeddings](code/16-word-embeddings-application.html) ([.Rmd file](code/16-word-embeddings-application.Rmd))
 
-- [GitHub Classroom: Challenge 8](https://classroom.github.com/a/zXjy9A9R)
+<!-- - [GitHub Classroom: Challenge 8](https://classroom.github.com/a/zXjy9A9R) -->
+
+GitHub Classroom: Challenge 8
 
 </div>
 </div>
@@ -205,7 +216,9 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Community detection](code/18-community-detection.html) ([.Rmd file](code/18-community-detection.Rmd))
 
-- [GitHub Classroom: Challenge 9](https://classroom.github.com/a/M0-bCL-X)
+<!-- - [GitHub Classroom: Challenge 9](https://classroom.github.com/a/M0-bCL-X)-->
+
+GitHub Classroom: Challenge 9
 
 </div>
 </div>
@@ -230,7 +243,8 @@ The following list provides links to the code used in the guided coding sessions
 
 - Tutorial: Network visualization with Gephi
 
-- [GitHub Classroom: Challenge 10](https://classroom.github.com/a/v-zRBb05)
+<!-- - [GitHub Classroom: Challenge 10](https://classroom.github.com/a/v-zRBb05) -->
+GitHub Classroom: Challenge 10
 
 </div>
 </div>
@@ -273,7 +287,7 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Querying large-scale databases.](code/S03-large-queries.html)
 
-- GitHub Classroom: [Additional materials and challenges](https://classroom.github.com/a/R6oxPiJC)
+<!-- - GitHub Classroom: [Additional materials and challenges](https://classroom.github.com/a/R6oxPiJC) -->
 
 </div>
 </div>

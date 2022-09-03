@@ -102,8 +102,6 @@ Note: slides may be updated as the course progresses.
 </div>
 <div id="collapse4" class="panel-collapse collapse in" style="margin:12px">
 
-**NOTE:** this session will take place on Zoom due to APSA.
-
 **Topics:** Introduction to automated text analysis: key concepts; selecting documents and features. Sources of textual data. String manipulation in R. Regular expressions. Text processing with quanteda. 
 
 [LINK TO SLIDES (.pdf)](slides/07-text-intro.pdf)

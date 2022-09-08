@@ -63,7 +63,7 @@ The function now returns 15 different tables. I had to use the option `fill=TRUE
 
 In this case, identifying the part of the html code that contains the table is a better approach. To do so, let's take a look at the source code of the website. In Google Chrome, go to _View_ > _Developer_ > _View Source_. All browsers should have similar options to view the source code of a website.
 
-In the source code, search for the text of the page (e.g. _2020<br />rank_), where _<br />_ is the line break. Right above it you will see: `<table class="wikitable sortable"...">`. This is the CSS selector that contains the table. (You can also find this information, probably more easily, by right-clicking anywhere on the table, and choosing _Inspect_).
+In the source code, search for the text of the page (e.g. _2021<br />rank_), where _<br />_ is the line break. Right above it you will see: `<table class="wikitable sortable"...">`. This is the CSS selector that contains the table. (You can also find this information, probably more easily, by right-clicking anywhere on the table, and choosing _Inspect_).
 
 Now that we now what we're looking for, let's use `html_nodes()` to identify all the elements of the page that have that CSS class. (Note that we need to use a dot before the name of the class to indicate it's CSS.)
 
@@ -75,7 +75,7 @@ length(wiki)
 There are 8 tables in total, and we will extract the second one.
 
 ```{r}
-pop <- html_table(wiki[[2]])
+pop <- html_table(wiki[[2]], fill=TRUE)
 str(pop)
 ```
 
@@ -87,7 +87,7 @@ We'll use regular expressions to remove endnotes and commas in the population nu
 pop$city_name <- gsub('\\[.*\\]', '', pop$City)
 pop$population <- pop[,"2020census"]
 pop$population <- as.numeric(gsub(",", "", pop$population))
-pop$rank <- pop[,"2020rank"]
+pop$rank <- pop[,"2021rank"]
 pop <- pop[,c("rank", "population", "city_name")]
 ```
 

@@ -65,7 +65,7 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [Scraping unstructured data](code/06-scraping-unstructured-data.html) ([.Rmd file](code/06-scraping-unstructured-data.html))
 
-<!-- - [GitHub Classroom: Challenge 2](https://classroom.github.com/a/TsmKeS49) -->
+- [GitHub Classroom: Challenge 2](https://classroom.github.com/a/TsmKeS49)
 GitHub Classroom: Challenge 2
 
 

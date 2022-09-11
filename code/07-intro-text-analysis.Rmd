@@ -118,12 +118,10 @@ We can also use question marks to indicate optional characters.
 ```{r}
 nrow(tweets)
 length(grep('immigrants?', tweets$text, ignore.case=TRUE))
-# equivalent to:
-length(grep('immigrant', tweets$text, ignore.case=TRUE))
 length(grep('immigrant|immigrants', tweets$text, ignore.case=TRUE))
 ```
 
-This will match immigration, immigrant, immigrants, etc.
+This will match immigrant or immigrants, etc.
 
 Other common expression patterns are:
 
@@ -154,7 +152,7 @@ str_replace(tweets$text[10000], '@[0-9_A-Za-z]+', 'USERNAME')
 Note this will only replace the _first_ instance. For all the instances, do:
 
 ```{r}
-str_replace_all(tweets$text[10000], '@[0-9_A-Za-z]+', 'USERNAME')
+str_replace_all(tweets$text[10000], '@[:alnum:]+', 'USERNAME')
 ```
 
 To extract a pattern we can use `str_extract`, and again we can extract one or all instances of the pattern:

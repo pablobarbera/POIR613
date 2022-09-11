@@ -477,12 +477,9 @@ substr(dates, 1, 4) # years</code></pre>
 <pre><code>## [1] 56571</code></pre>
 <pre class="r"><code>length(grep(&#39;immigrants?&#39;, tweets$text, ignore.case=TRUE))</code></pre>
 <pre><code>## [1] 107</code></pre>
-<pre class="r"><code># equivalent to:
-length(grep(&#39;immigrant&#39;, tweets$text, ignore.case=TRUE))</code></pre>
-<pre><code>## [1] 107</code></pre>
 <pre class="r"><code>length(grep(&#39;immigrant|immigrants&#39;, tweets$text, ignore.case=TRUE))</code></pre>
 <pre><code>## [1] 107</code></pre>
-<p>This will match immigration, immigrant, immigrants, etc.</p>
+<p>This will match immigrant or immigrants, etc.</p>
 <p>Other common expression patterns are:</p>
 <ul>
 <li><code>.</code> matches any character, <code>^</code> and <code>$</code> match the beginning and end of a string.<br />
@@ -513,7 +510,7 @@ tweets$text[10000]</code></pre>
 <pre class="r"><code>str_replace(tweets$text[10000], &#39;@[0-9_A-Za-z]+&#39;, &#39;USERNAME&#39;)</code></pre>
 <pre><code>## [1] &quot;\&quot;\&quot;\&quot;USERNAME: I&#39;m a big fan of the new @realDonaldTrump ties. http://t.co/Fka9s2D0e8\&quot;\&quot;  Thanks, selling great at.Macy&#39;s!\&quot;&quot;</code></pre>
 <p>Note this will only replace the <em>first</em> instance. For all the instances, do:</p>
-<pre class="r"><code>str_replace_all(tweets$text[10000], &#39;@[0-9_A-Za-z]+&#39;, &#39;USERNAME&#39;)</code></pre>
+<pre class="r"><code>str_replace_all(tweets$text[10000], &#39;@[:alnum:]+&#39;, &#39;USERNAME&#39;)</code></pre>
 <pre><code>## [1] &quot;\&quot;\&quot;\&quot;USERNAME: I&#39;m a big fan of the new USERNAME ties. http://t.co/Fka9s2D0e8\&quot;\&quot;  Thanks, selling great at.Macy&#39;s!\&quot;&quot;</code></pre>
 <p>To extract a pattern we can use <code>str_extract</code>, and again we can extract one or all instances of the pattern:</p>
 <pre class="r"><code>str_extract(tweets$text[10000], &#39;@[0-9_A-Za-z]+&#39;)</code></pre>

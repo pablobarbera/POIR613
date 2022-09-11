@@ -33,7 +33,7 @@ Once we have a corpus, we can convert it to tokens using the `tokens` function.
 
 ```{r}
 toks <- tokens(twcorpus)
-toks[[2]]
+toks[[1]]
 ```
 
 `tokens` has many useful options (check out `?tokens` for more information). Let's actually use it to remove punctuation, keep Twitter features...
@@ -112,4 +112,5 @@ twdfm <- dfm(toks, remove=c(
   stopwords("english"), "t.co", "https", "rt", "amp", "http", "t.c", "can", "u"), verbose=TRUE)
 textplot_wordcloud(twdfm, rotation=0, min_size=2, max_size=5, max_words=50)
 ```
+
 

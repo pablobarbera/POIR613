@@ -91,8 +91,7 @@ The following list provides links to the code used in the guided coding sessions
 
 - Code: [APIs](code/09-apis.html) ([.Rmd file](code/09-apis.Rmd))
 
-<!-- - [GitHub Classroom: Challenge 3](https://classroom.github.com/a/H0WaWaPR) -->
-GitHub Classroom: Challenge 3
+- [GitHub Classroom: Challenge 3](https://classroom.github.com/a/H0WaWaPR) 
 
 </div>
 </div>

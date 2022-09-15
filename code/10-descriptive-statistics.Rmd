@@ -128,34 +128,3 @@ head(textstat_keyness(tdfm,
                       target=docvars(tdfm, "Album")=="folklore"), n=20)
 ```
 
-
-# Clustering methods
-
-Let's explore an application of k-means clustering to the same lyrics dataset:
-
-```{r}
-cdfm <- dfm_weight(dfm_trim(tdfm, min_docfreq = 5, verbose=TRUE), "prop")
-
-set.seed(777) # set random seed to ensure replicability
-kc <- kmeans(cdfm, centers=5)
-table(kc$cluster)
-head(docvars(tdfm, "Title")[kc$cluster==1])
-head(docvars(tdfm, "Title")[kc$cluster==2])
-head(docvars(tdfm, "Title")[kc$cluster==3])
-head(docvars(tdfm, "Title")[kc$cluster==4])
-head(docvars(tdfm, "Title")[kc$cluster==5])
-
-# Taylor is upset?
-head(textstat_keyness(cdfm, target=kc$cluster==1),n=10)
-# Songs about staying?
-head(textstat_keyness(cdfm, target=kc$cluster==2),n=10)
-# You're to blame songs?
-head(textstat_keyness(cdfm, target=kc$cluster==3),n=10)
-# Rest of songs
-head(textstat_keyness(cdfm, target=kc$cluster==4),n=10)
-# Fun nights?
-head(textstat_keyness(cdfm, target=kc$cluster==5),n=10)
-```
-
-
-

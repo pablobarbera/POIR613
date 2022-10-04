@@ -48,11 +48,9 @@ Our first step is to train the classifier using cross-validation. There are many
 
 ```{r}
 library(glmnet)
-require(doMC)
-registerDoMC(cores=3)
-lasso <- cv.glmnet(mdfm[training,], movies$pos[training], 
-	family="binomial", alpha=1, nfolds=5, parallel=TRUE, intercept=TRUE,
-	type.measure="class")
+lasso <- cv.glmnet(x=mdfm[training,], y=movies$pos[training], 
+	family="binomial", alpha=1, nfolds=5, parallel=TRUE,
+	intercept=TRUE,	type.measure="class")
 plot(lasso)
 ```
 
@@ -102,7 +100,7 @@ head(df[,c("coef", "word")], n=30)
 We can easily modify our code to experiment with Ridge or ElasticNet models:
 
 ```{r}
-ridge <- cv.glmnet(mdfm[training,], movies$pos[training], 
+ridge <- cv.glmnet(x=mdfm[training,], y=movies$pos[training], 
 	family="binomial", alpha=0, nfolds=5, parallel=TRUE, intercept=TRUE,
 	type.measure="class")
 

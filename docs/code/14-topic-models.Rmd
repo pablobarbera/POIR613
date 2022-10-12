@@ -16,17 +16,16 @@ The number of topics in a topic model is somewhat arbitrary, so you need to play
 
 ```{r message = FALSE}
 library(topicmodels)
-# reading data and preparing corpus object
-nyt <- read.csv("../data/nytimes.csv", stringsAsFactors = FALSE)
 library(quanteda)
-library(dplyr)
-# an example of how to process a dfm using dplyr:
-nyt %>%
-  corpus(text_field = "lead_paragraph") %>%
-  tokens(remove_punct = TRUE, remove_numbers = TRUE) %>%
-  dfm() %>%
-  dfm_remove(stopwords("english")) %>%
-  dfm_trim(min_docfreq = 2) -> cdfm
+
+# reading data and converting to DFM
+nyt <- read.csv("../data/nytimes.csv", stringsAsFactors = FALSE)
+nyt_corpus <- corpus(nyt, text_field = "lead_paragraph")
+toks <- tokens(nyt_corpus, 
+               remove_punct = TRUE, remove_numbers = TRUE)
+nyt_dfm <- dfm(toks)
+nyt_dfm <- dfm_remove(nyt_dfm, stopwords("english"))
+cdfm <- dfm_trim(nyt_dfm, min_docfreq = 2)
 
 # estimate LDA with K topics
 K <- 30

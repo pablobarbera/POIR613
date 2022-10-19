@@ -15,6 +15,7 @@ Let's see what we can do with it usign the `rword2vec` package in R. The example
 ```{r}
 #library(devtools)
 #install_github("mukul13/rword2vec")
+#install.packages("lsa")
 library(rword2vec)
 library(lsa)
 ```
@@ -56,10 +57,13 @@ As an alternative way to think of embeddings, see this cool [online visualizatio
 
 Where do these similarities come from? Let's extract the underlying word vectors.
 
-```{r}
+```{r, eval=FALSE}
 # Extracting word vectors
 bin_to_txt("../data/vec.bin", "../data/vector.txt")
+```
 
+And now read them in R:
+```{r}
 library(readr)
 data <- read_delim("../data/vector.txt", 
 	skip=1, delim=" ",

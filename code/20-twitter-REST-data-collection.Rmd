@@ -16,7 +16,7 @@ library(streamR)
 
 searchTweets(q="halloween", 
   filename="../data/halloween-tweets.json",
-  n=1000, until="2021-10-30", 
+  n=1000, until="2022-10-31", 
   oauth=my_oauth)
 
 tweets <- parseTweets("../data/halloween-tweets.json")

@@ -5,7 +5,7 @@ author: Pablo Barbera
 
 #### Importing network data into R
 
-In this training session we will be using a small dataset to illustrate how to identify latent communities in networks. The dataset corresponds to the Twitter ego network of POIR -- each node is another Twitter account that the USC POIR account follows, and the edges indicate whether each of those accounts in turn follow each other. (See at the end of this script for the code on how I put together this network.) Edges are thus directed.
+In this guided coding session we will be using a small dataset to illustrate how to identify latent communities in networks. The dataset corresponds to the Twitter ego network of POIR -- each node is another Twitter account that the USC POIR account follows, and the edges indicate whether each of those accounts in turn follow each other. (See at the end of this script for the code on how I put together this network.) Edges are thus directed.
 
 The first step is to read the list of edges and nodes in this network:
 
@@ -27,15 +27,15 @@ g
 What does it mean?
 - `U` means undirected  
 - `N` means named graph  
-- `221` is the number of nodes  
-- `2067` is the number of edges  
+- `219` is the number of nodes  
+- `7750` is the number of edges  
 - `name (v/c)` means _name_ is a node attribute and it's a character  
 
 #### Network communities
 
 Networks often have different clusters or communities of nodes that are more densely connected to each other than to the rest of the network. Let's cover some of the different existing methods to identify these communities.
 
-The most straightforward way to partition a network is into __connected components__. Each component is a group of nodes that are connected to each other, but _not_ to the rest of the nodes. For example, this network has 108 components, with the largest one (often called giant component - see more below) containing 114 nodes.
+The most straightforward way to partition a network is into __connected components__. Each component is a group of nodes that are connected to each other, but _not_ to the rest of the nodes. In this case, this network has a single component (also called a giant component) containing 114 nodes, which means that you can get from any node to any other node.
 
 ```{r}
 comp <- components(g)
@@ -43,7 +43,7 @@ comp$no # number of components
 max(comp$csize) # size of largest component
 ```
 
-Most networks have a single __giant connected component__ that includes most nodes. Most studies of networks actually focus on the giant component, which is what we will do here. One important reason is due to feasibility: e.g. the shortest path between nodes in a network with two or more component is Inf!.
+Most networks have a single __giant connected component__ that includes most or all nodes. Most studies of networks actually focus on the giant component, which is what we will do here. One important reason is due to feasibility: e.g. the shortest path between nodes in a network with two or more component is Inf!.
 
 ```{r}
 giant <- decompose(g, mode="strong")[[1]]
@@ -62,6 +62,8 @@ And now we keep only the giant component:
 g <- decompose(g, mode="strong")[[1]]
 nodes <- nodes[nodes$Label %in% V(g)$Label,]
 ```
+
+Again, in practice here because we only have a single component, the output is the same as the original network. For most other applications you will end up dropping part of the network at this step.
 
 Even within a giant component, there can be different subsets of the network that are more connected to each other than to the rest of the network. The goal of __community detection algorithms__ is to identify these subsets.
 
@@ -140,31 +142,7 @@ for (i in 1:3){
 
 ```
 
-The final way in which we can think about network communities is in terms of hierarchy or structure. We'll discuss one of these methods.
-
-__K-core decomposition__ allows us to identify the core and the periphery of the network. A k-core is a maximal subnet of a network such that all nodes have at least degree K.
-
-```{r}
-str(coreness(g))
-head(which(coreness(g)==32), n=10) # what is the core of the network?
-head(which(coreness(g)==1), n=10) # what is the periphery of the network?
-
-# looking at what predicts being in the core
-nodes$k <- coreness(g)
-# number of followers?
-plot(nodes$k, log(nodes$followers_count))
-cor(nodes$k, log(nodes$followers_count))
-# text?
-poir <- dfm(tokens(corpus(nodes[,c("description", "k")], text_field="description")))
-head(textstat_keyness(poir, target=docvars(poir)$k>=30,
-                      measure="lr"), n=20)
-head(textstat_keyness(poir, target=docvars(poir)$k<30,
-                      measure="lr"), n=20)
-
-```
-
-If you want to learn more about this technique, see our [paper in PLOS ONE](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0143611) where we use it to study large-scale Twitter networks in the context of protest events.
-
+#### Appendix 
 
 In case you're curious, here's the code I used to collect the data:
 
@@ -175,7 +153,7 @@ oauth_folder = "~/Dropbox/credentials/twitter/"
 
 accounts <- getFriends("uscpoir", oauth=oauth_folder)
 
-# creating folders (if they do not exists)
+# creating folder where data will be stored (if it does not exists)
 try(dir.create("../data/friends"))
 
 # first check if there's any list of friends already downloaded to 'outfolder'
@@ -210,7 +188,7 @@ while (length(accounts.left) > 0){
 # keeping only those that we were able to download
 accounts <- gsub(".rdata", "", list.files("../data/friends"))
 
-# reading and creating network
+# reading and creating edge list for network
 edges <- list()
 for (i in 1:length(accounts)){
 	file.name <- paste0("../data/friends/", accounts[i], ".rdata")
@@ -223,12 +201,15 @@ for (i in 1:length(accounts)){
 }
 
 edges <- do.call(rbind, edges)
+
+# creating list of nodes (unique Twitter accounts in edge list)
 nodes <- data.frame(id_str=unique(c(edges$source, edges$target)))
 
-# adding user data
+# adding user meta data
 users <- getUsersBatch(ids=nodes$id_str, oauth=oauth_folder)
 nodes <- merge(nodes, users)
 
+# create network object and export to .csv file
 library(igraph)
 g <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 g
@@ -236,5 +217,5 @@ g
 names(nodes)[1:2] <- c("Id", "Label")
 names(edges)[1:2] <- c("Source", "Target")
 write.csv(nodes, file="../data/poir-nodes.csv", row.names=FALSE)
-write.csv(edges, file="../datapoir-edges.csv", row.names=FALSE)
+write.csv(edges, file="../data/poir-edges.csv", row.names=FALSE)
 ```

@@ -6,6 +6,7 @@ author: "Pablo Barbera"
 This is the list of packages we will use today:
 
 ```{r, eval=FALSE}
+install.packages("ROAuth")
 install.packages("streamR")
 install.packages("devtools")
 devtools::install_github("pablobarbera/twitter_ideology/pkg/tweetscores")
@@ -18,6 +19,7 @@ Let's check that they work:
 library(streamR)
 library(tweetscores)
 library(maps)
+library(ROAuth)
 ```
 
 We'll start by loading my OAuth token, which is required to connect to the API. Note that this will not work for you. In order to create your token, follow the instructions at the end of this script, which will require you create a developer account first.
